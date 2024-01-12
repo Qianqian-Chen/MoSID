@@ -22,7 +22,7 @@ This project includes both train/test code for training the MoSID framwork.
 * scipy 1.9.1
 
 ## Setup
-```
+
 ### Dataset
 * For training the segmentation models, you need to put the data in this format：  
 ```
