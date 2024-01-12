@@ -41,7 +41,7 @@ This project includes both train/test code for training the MoSID framwork.
 ... 
 ```
 
-* The format of the train.txt / test.txt is as follow：    
+* The format of the train.txt / test.txt / valid.txt is as follow：    
 ```
 ./data/train.txt
 ├─'MRI1'
