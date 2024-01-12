@@ -25,42 +25,24 @@ This project includes both train/test code for training the MoSID framwork.
 
 ```
 ### Dataset
-* For training the segmentation models, you need to put the data in this format：
+* For training the segmentation models, you need to put the data in this format：  
 
 ```
-./data
-├─train.txt
-├─test.txt
-├─Guangdong
-      ├─Guangdong_1
-          ├─P0.nii.gz
-          ├─P1.nii.gz
-          ├─P2.nii.gz
-          ├─P3.nii.gz
-          ├─P4.nii.gz     
-          └─P5.nii.gz
-      ├─Guangdong_2
-      ├─Guangdong_3
-      ...
-├─Guangdong_breast
-      ├─Guangdong_1.nii.gz
-      ├─Guangdong_2.nii.gz
-      ├─Guangdong_2.nii.gz
-      ...
-├─Guangdong_gt
-      ├─Guangdong_1.nii.gz
-      ├─Guangdong_2.nii.gz
-      ├─Guangdong_2.nii.gz
-      ...         
-└─Yunzhong
-└─Yunzhong_breast
-└─Yunzhong_gt
-└─Ruijin
-└─Ruijin_breast
-└─Ruijin_gt
-...
+./data  
+├─train.txt  
+├─test.txt  
+├─MRI1  
+      ├─ADC.nii.gz  
+      ├─T2w.nii.gz  
+      ├─P0.nii.gz  
+      ├─P2.nii.gz     
+      └─GT.nii.gz  
+      ...  
+├─MRI99          
+└─MRI100  
+...  
 ```
-* The format of the train.txt / test.txt is as follow：
+* The format of the train.txt / test.txt is as follow：  
 ```
 ./data/train.txt
 ├─'MRI1'
