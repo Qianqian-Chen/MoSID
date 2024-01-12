@@ -6,12 +6,11 @@ Please see:
 (1) Confernce paper: MoSID: Modality-Specific Information Disentanglement from Multi-parametric MRI for Breast Tumor Segmentation (https://link.springer.com/chapter/10.1007/978-3-031-45350-2_8)  
 (2) Journal paper: Modality-Specific Information Disentanglement from Multi-parametric MRI for Breast Tumor Segmentation and Computer-aided Diagnosis (https://ieeexplore.ieee.org/document/10388458)
 
-![image](https://github.com/Qianqian-Chen/MoSID/blob/main/framework.png)
 
 ## Introduction:
-This project includes both train/test code for training models on uses' own data or fine-tuning models.
+This project includes both train/test code for training the MoSID framwork.
 
-![image](https://github.com/Qianqian-Chen/MoSID/blob/main/result.png)
+![image](https://github.com/Qianqian-Chen/MoSID/blob/main/framework.png)
 
 ## Requirements:
 * python 3.10
