@@ -9,7 +9,7 @@ https://ieeexplore.ieee.org/document/10388458
 ## Introduction:
 This project includes both train/test code for training models on uses' own data or fine-tuning models.
 
-![image](https://github.com/ZhangJD-ong/AI-assistant-for-breast-tumor-segmentation/blob/main/Img/Results.png)
+![image](https://github.com/Qianqian-Chen/MoSID/blob/main/result.png)
 
 ## Requirements:
 * python 3.10
