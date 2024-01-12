@@ -29,6 +29,7 @@ This project includes both train/test code for training the MoSID framwork.
 ./data
 ├─train.txt
 ├─test.txt
+├─valid.txt
 ├─MRI1
       ├─ADC.nii.gz
       ├─T2w.nii.gz
@@ -52,13 +53,9 @@ This project includes both train/test code for training the MoSID framwork.
 ...
 ```
 
-### Training and testing
-* For training the segmentation model, please add data path and adjust model parameters in the file: ./Train-and-test-code/options/BasicOptions.py. 
-```
-cd ./Train-and-test-code
-python train.py
-python test.py
-```
+### Whole Breast Segmentation Model
+* The whole breast segmentation process can be used to remove the oversegmentation on non-breast regions.
+* Partial images and whole breast annotations are available at: https://github.com/ZhangJD-ong/AI-assistant-for-breast-tumor-segmentation
 
 ## Citation
 If you find the code useful, please consider citing the following papers:
