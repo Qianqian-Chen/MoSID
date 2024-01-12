@@ -4,7 +4,7 @@
 Please see: Modality-Specific Information Disentanglement from Multi-parametric MRI for Breast Tumor Segmentation and Computer-aided Diagnosis
 https://ieeexplore.ieee.org/document/10388458
 
-![image](https://github.com/ZhangJD-ong/AI-assistant-for-breast-tumor-segmentation/blob/main/Img/Framework.png)
+![image](https://github.com/Qianqian-Chen/MoSID/blob/main/framework.png)
 
 ## Introduction:
 This project includes both train/test code for training models on uses' own data or fine-tuning models.
